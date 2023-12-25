@@ -34,26 +34,28 @@ export default function Home() {
         </div>
       </div>
       <div className="h-96 mt-[92px] w-screen  bg-orange-100">
-        <div className="mx-32">
-          <h2>Hvad kan man tale med en psykolog om? </h2>
-          <p>
-            Det korte svar er alt. Intet er for stort eller for småt. I
-            samtaleterapi hos os, har vi fokus på det, der er vigtigt for dig.
-          </p>
-          <p>
-            Hvem du er, og hvad der har formet dig gennem livet har betydning
-            for, hvad du vælger at gøre her og nu. En samtale handler ofte om,
-            hvordan man kan bryde vaner og skabe forandring. Din identitet og
-            hvem du gerne vil være er for nogen det vigtige at arbejde med i
-            terapi.
-          </p>
-          <p>
-            Du skal ikke passe ind i en kategori for at tale med en psykolog. Vi
-            oplever dog alligevel, at det for mange er rart at mærke, de ikke er
-            alene med det, de oplever. I kasserne nedenfor, samt under fanen
-            genkender du?, kan du læse mere om nogle af de emner, vi ofte
-            møder..
-          </p>
+        <div className="px-28 py-4">
+          <div className=" bg-orange-200/90 py-3 px-4  font-serif w-1/2 rounded-md">
+            <h2 className="pb-2">Hvad kan man tale med en psykolog om? </h2>
+            <p className="pb-2">
+              Det korte svar er alt. Intet er for stort eller for småt. I
+              samtaleterapi hos os, har vi fokus på det, der er vigtigt for dig.
+            </p>
+            <p className="pb-2">
+              Hvem du er, og hvad der har formet dig gennem livet har betydning
+              for, hvad du vælger at gøre her og nu. En samtale handler ofte om,
+              hvordan man kan bryde vaner og skabe forandring. Din identitet og
+              hvem du gerne vil være er for nogen det vigtige at arbejde med i
+              terapi.
+            </p>
+            <p>
+              Du skal ikke passe ind i en kategori for at tale med en psykolog.
+              Vi oplever dog alligevel, at det for mange er rart at mærke, de
+              ikke er alene med det, de oplever. I kasserne nedenfor, samt under
+              fanen genkender du?, kan du læse mere om nogle af de emner, vi
+              ofte møder..
+            </p>
+          </div>
         </div>
       </div>
     </main>
