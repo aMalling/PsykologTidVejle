@@ -42,7 +42,7 @@ export default function Header() {
       className="z-50 relative w-screen 
      font-mono text-white font-medium "
     >
-      <nav className="flex fixed h-12 w-screen bg-black/95 py-6 ">
+      <nav className="flex fixed h-12 w-screen bg-black/90 py-6 ">
         <ul className=" flex w-screen flex-wrap items-center justify-center font-medium ">
           {links.map((link) => (
             <motion.li
