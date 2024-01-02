@@ -4,11 +4,11 @@ import React from "react";
 export default function Home() {
   return (
     <main className="flex flex-col ">
-      <div className="w-screen max-h-[600px] overflow-hidden">
+      <div className="w-screen max-h-[600px] overflow-hidden bg-gray-400">
         <Image
           src={require("@/assets/Gruppefoto-logo.jpg")}
           alt="Gruppefoto"
-          className="w-full z-10 "
+          className="w-full z-10 opacity-70 "
           width={1000}
           height={600}
         />
@@ -98,7 +98,7 @@ export default function Home() {
           <p>Som ung kan du opleve, at der er mange krav og forventninger til dig, både fra omgivelserne og fra dig selv. Det kan handle om alt fra skolearbejde, venner, kærester og forældre, til ensomhed, angst, konflikter, vrede og tristhed. Det kan være svært at navigere i på egen hånd, og det kan derfor være rart at tale med nogen om det, du står i. Mange oplever det som en god hjælp at snakke med deres venner eller en tryg voksen i deres omgangskreds, mens andre også har gavn af at tale med en psykolog i en periode. Vi tilbyder samtaler til unge, læs mere her.</p>
           </div>
         </div>
-        <div className="flex flex-row items-center max-w-5xl justify-center py-20 max">
+        <div className="flex flex-row items-center max-w-5xl justify-center py-24 max">
  
           <div className="mr-10">
           <h2 className="pb-2 font-bold text-lg "> Forældresparring</h2>
@@ -114,8 +114,7 @@ export default function Home() {
         
         </div>
         <div className="flex justify-center pb-10">
-       
-            <button className="bg-black text-white/80 rounded-full font-semibold  mt-1 text-xl  font-mono px-8 py-4  hover:scale-110 hover:text-orange-400 transition-all">
+            <button className="bg-black text-white/80 rounded-full font-semibold mt-1 mb-24 text-xl font-mono px-8 py-4 hover:scale-110 hover:text-orange-400 transition-all">
               > Bestil tid nu
               </button>
             </div>
