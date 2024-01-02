@@ -30,7 +30,6 @@ export default function Home() {
             <button className="bg-black text-white/80 rounded-full font-semibold  mt-1 text-medium font-mono px-5 py-2  hover:scale-110 hover:text-orange-400 transition-all">
               > Bestil tid nu
             </button>
-            
           </p>
         </div>
       </div>
