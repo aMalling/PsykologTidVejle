@@ -8,31 +8,31 @@ import Image from "next/image";
 export const links = [
   {
     name: "Velkommen",
-    hash: "#velkommen",
+    hash: "/",
   },
   {
     name: "Om os",
-    hash: "#om-os",
+    hash: "/om-os",
   },
   {
     name: "Vi tilbyder",
-    hash: "#vi-tilbyder",
+    hash: "/vi-tilbyder",
   },
   {
     name: "Genkender du?",
-    hash: "#genkender-du?",
+    hash: "/genkender-du?",
   },
   {
     name: "Priser",
-    hash: "#priser",
+    hash: "/priser",
   },
   {
     name: "Praktisk",
-    hash: "#praktisk",
+    hash: "/praktisk",
   },
   {
     name: "Kontakt",
-    hash: "#kontakt",
+    hash: "/kontakt",
   },
 ] as const;
 

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <section className="w-full grid grid-cols-9 py-10 text-white/90 bg-gray-700">
+    <section className="w-full grid grid-cols-9 py-5 text-white/90 bg-gray-700">
       <div className=" col-start-5 text-left col-span-3 ">
         <p>Psykologtid Vejle</p>
         <p>Andkærhus</p>
