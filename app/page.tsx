@@ -120,11 +120,11 @@ export default function Home() {
           <Image
             src={require("@/assets/pexels-maryia-plashchynskaya-3393793.jpg")}
             alt="Gruppefoto"
-            className="w-full z-10  max-h-92 object-cover"
+            className="max-w-40 z-10 max-h-92 object-cover"
             width={1000}
             height={600}
           />
-          <div className="ml-10 ">
+          <div className="ml-10 mr-20 w-1/2 ">
             <h2 className="pb-2 font-bold text-lg "> Til dig, som er ung</h2>
             <p>
               Som ung kan du opleve, at der er mange krav og forventninger til
@@ -140,7 +140,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-row items-center max-w-5xl justify-center py-24 max">
-          <div className="mr-10">
+          <div className="mr-10 w-1/2">
             <h2 className="pb-2 font-bold text-lg "> Forældresparring</h2>
             <p>
               Vi tilbyder sparring til forældre, der ønsker at forstå og hjælpe
@@ -155,7 +155,7 @@ export default function Home() {
           <Image
             src={require("@/assets/pexels-kindel-media-8550841.jpg")}
             alt="Gruppefoto"
-            className="w-full z-10  max-h-92 object-cover"
+            className="z-10 max-w-60  max-h-92 object-cover"
             width={1000}
             height={600}
           />
@@ -167,14 +167,23 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="grid py-10 justify-center  text-white/90 bg-gray-700">
-        <div>
+      <section className="w-full grid grid-cols-9 py-10 text-white/90 bg-gray-700">
+        <div className=" col-start-5 text-left col-span-3 ">
           <p>Psykologtid Vejle</p>
           <p>Andkærhus</p>
           <p>Andkærvej 19</p>
           <p>7100 Vejle</p>
           <p>Telefon: 25331100</p>
           <p>Mail: psykologtidvejle@protonmail.com</p>
+        </div>
+        <div className="col-start-8 col-span-2 mr-10">
+          <Image
+            src={require("@/assets/DanskPsykologForening-300x103-1.png")}
+            alt="Dansk Psykolog Foreningslogo"
+            className="z-20 "
+            width={200}
+            height={75}
+          />
         </div>
       </section>
     </main>
