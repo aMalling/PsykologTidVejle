@@ -7,6 +7,7 @@ export default function Home() {
       <div className="w-screen max-h-[600px] overflow-hidden bg-gray-400">
         <Image
           src={require("@/assets/Gruppefoto-logo.jpg")}
+          placeholder="blur"
           alt="Gruppefoto"
           className="w-full z-10 opacity-70 "
           width={1000}
