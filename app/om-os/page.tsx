@@ -3,7 +3,7 @@ import React from "react";
 
 export default function OmOs() {
   return (
-    <div className="bg-orange-200 px-32 pt-12">
+    <div className="bg-orange-200 px-32 pt-24">
       <h2 className="text-center pb-2 font-bold text-lg">Om os</h2>
       <div class="grid grid-cols-2">
         <div className="mx-20">
@@ -68,7 +68,7 @@ export default function OmOs() {
           <p>Direkte e-mail: kamilla@psykologtidvejle.dk</p>
         </div>
 
-        <div className="pt-12">
+        <div className="pt-24">
           <h3>Thea Dahl Vemmelund </h3>
           <p>
             Jeg er uddannet psykolog fra Aarhus Universitet i 2017 og
@@ -114,7 +114,7 @@ export default function OmOs() {
             alt="Portraet Camilla"
             width={300}
             height={450}
-            className="mt-12 rounded-b-full rounded-tr-full"
+            className="mt-24 rounded-b-full rounded-tr-full"
           ></Image>
         </div>
       </div>
