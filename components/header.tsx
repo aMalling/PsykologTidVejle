@@ -1,9 +1,8 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import Image from "next/image";
 
 export const links = [
   {
@@ -37,12 +36,31 @@ export const links = [
 ] as const;
 
 export default function Header() {
+  const [color, setColor] = useState(false);
+  const changeColor = () => {
+    if (window.scrollY > 20) {
+      setColor(true);
+      console.log("setcoler er skiftet til true");
+    } else {
+      setColor(false);
+      console.log("setcoler er skiftet til false");
+    }
+  };
+
+  window.addEventListener("scroll", changeColor);
+
   return (
     <header
       className="z-50 relative w-screen 
      font-mono text-white font-medium "
     >
-      <nav className="flex fixed h-12 w-screen bg-black/90 py-6 ">
+      <nav
+        className={
+          color
+            ? "flex fixed h-12 w-screen bg-black/90 py-6 "
+            : "flex fixed h-12 w-screen  py-6"
+        }
+      >
         <ul className=" flex w-screen flex-wrap items-center justify-center font-medium ">
           {links.map((link) => (
             <motion.li
