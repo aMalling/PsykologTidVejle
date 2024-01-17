@@ -5,7 +5,7 @@ export default function OmOs() {
   return (
     <div className="bg-orange-200 px-32 pt-24">
       <h2 className="text-center pb-2 font-bold text-lg">Om os</h2>
-      <div class="grid grid-cols-2">
+      <div className="grid grid-cols-2">
         <div className="mx-20">
           <Image
             src={require("@/assets/Camilla-Porstraet-1024x1536.jpg")}
