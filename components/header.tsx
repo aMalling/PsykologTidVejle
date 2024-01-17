@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
@@ -37,17 +37,19 @@ export const links = [
 
 export default function Header() {
   const [color, setColor] = useState(false);
-  const changeColor = () => {
-    if (window.scrollY > 20) {
-      setColor(true);
-      console.log("setcoler er skiftet til true");
-    } else {
-      setColor(false);
-      console.log("setcoler er skiftet til false");
-    }
-  };
+  useEffect(() => {
+    const changeColor = () => {
+      if (window.scrollY > 20) {
+        setColor(true);
+        console.log("setcoler er skiftet til true");
+      } else {
+        setColor(false);
+        console.log("setcoler er skiftet til false");
+      }
+    };
 
-  window.addEventListener("scroll", changeColor);
+    window.addEventListener("scroll", changeColor);
+  }, []);
 
   return (
     <header
