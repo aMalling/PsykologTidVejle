@@ -60,7 +60,7 @@ export default function Header() {
         className={
           color
             ? "flex fixed h-12 w-screen bg-black/90 py-6 "
-            : "flex fixed h-12 w-screen  py-6"
+            : "flex fixed h-12 w-screen hover:bg-black/90 py-6"
         }
       >
         <ul className=" flex w-screen flex-wrap items-center justify-center font-medium ">
