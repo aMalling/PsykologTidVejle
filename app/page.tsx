@@ -100,8 +100,8 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <section className="flex-row justify-center font-sans px-40 bg-orange-100   ">
-        <div className="flex flex-col py-10 mt-32 gap-10 ">
+      <section className="flex-row justify-center font-sans px-7 sm:px-40 bg-orange-100   ">
+        <div className="flex flex-col py-10 mt-10  sm:mt-32 gap-10 ">
           <p className="italic font-serif">
             Vi træder oftest på de stier, som vi kender allerbedst, så det at
             turde gå en ny vej, kan være svært, og for mange kan det slet ikke
@@ -116,16 +116,21 @@ export default function Home() {
         <div className="grid grid-cols-2 justify-center my-10">
           <div className="h-16 border-r-2 border-black/65"></div>
         </div>
-        <div className=" justify-center py-20 max flex flex-row items-center max-w-5xl">
+        <div className="relative justify-center py-20 flex flex-col sm:flex-row items-center max-w-5xl">
+          <h2 className="absolute top-32 font-bold text-lg z-20 sm:hidden flex bg-orange-400/80 px-4">
+            Til dig, som er ung
+          </h2>
           <Image
             src={require("@/assets/pexels-maryia-plashchynskaya-3393793.jpg")}
             alt="Gruppefoto"
-            className="max-w-40 z-10 max-h-92 object-cover"
+            className="sm:max-w-40 z-10 sm:max-h-92 max-h-52 object-cover"
             width={1000}
             height={600}
           />
-          <div className="ml-10 mr-20 w-1/2 ">
-            <h2 className="pb-2 font-bold text-lg "> Til dig, som er ung</h2>
+          <div className="pt-2 sm:ml-10 sm:mr-20 sm:w-1/2 ">
+            <h2 className="font-bold text-lg hidden sm:flex ">
+              Til dig, som er ung
+            </h2>
             <p>
               Som ung kan du opleve, at der er mange krav og forventninger til
               dig, både fra omgivelserne og fra dig selv. Det kan handle om alt
