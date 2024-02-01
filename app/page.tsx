@@ -14,7 +14,7 @@ export default function Home() {
           height={600}
         />
       </div>
-      <div className="z-20 mt-32 sm:mt-72 sm:w-1/2 px-3 sm:px-28 absolute">
+      <div className="z-20 sm:mt-72 pt-10 sm:pt-0 sm:w-1/2 px-3 sm:px-28 sm:absolute bg-orange-100 ">
         <div className="z-20 black text-lg pt-3 pb-5 px-5 bg-orange-200 rounded-md ">
           <p>
             Søger du en{" "}
@@ -34,12 +34,12 @@ export default function Home() {
         </div>
       </div>
       <div className="py-10 w-screen bg-orange-100">
-        <div className="px-28 py-4 flex justify-center">
-          <div className=" py-3 px-4  font-serif w-1/2 rounded-md">
+        <div className=" px-6 sm:px-28 py-4 flex justify-center">
+          <div className=" py-3 sm:px-4 font-serif sm:w-1/2 rounded-md">
             <h2 className="pb-2 font-bold text-lg ">
               Hvad kan man tale med en psykolog om?{" "}
             </h2>
-            <p className="pb-2">
+            <p className="pb-2 ">
               Det korte svar er alt. Intet er for stort eller for småt. I
               samtaleterapi hos os, har vi fokus på det, der er vigtigt for dig.
             </p>
@@ -60,9 +60,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="px-52 py-20 flex justify-center text-white/90 bg-gray-700">
-        <div className="grid grid-cols-2 font-serif ">
-          <p className="pb-5 border-b-4 border-r-4  border-orange-200 p-7">
+      <div className="sm:px-52 sm:py-20 flex justify-center text-white/90 bg-gray-700">
+        <div className="grid sm:grid-cols-2  font-serif ">
+          <p className="pb-5 border-b-4 sm:border-r-4 border-orange-200 p-7">
             Har du <span className="text-orange-400">angst</span>, kan det have
             store konsekvenser for, hvordan du lever dit liv. Du kan blive
             begrænset i at leve, som du gerne vil, og det kan føles som en
@@ -78,7 +78,7 @@ export default function Home() {
             skrue ned for tempoet, selvom du har en god idé om, hvad du skal
             skære væk.
           </p>
-          <p className=" border-r-4 border-orange-200 p-7">
+          <p className=" border-b-4 sm:border-b-0 sm:border-r-4 border-orange-200 p-7">
             Lever du et liv med{" "}
             <span className="text-orange-400"> depression</span>, der kommer og
             går i perioder? Oplever du for første gang en overvældende følelse
@@ -100,7 +100,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <section className="flex-row justify-center px-40 bg-orange-100 font-sans ">
+      <section className="flex-row justify-center font-sans px-40 bg-orange-100   ">
         <div className="flex flex-col py-10 mt-32 gap-10 ">
           <p className="italic font-serif">
             Vi træder oftest på de stier, som vi kender allerbedst, så det at
@@ -113,11 +113,10 @@ export default function Home() {
             omsorgsfuldt imod dig. – Thea{" "}
           </p>
         </div>
-
         <div className="grid grid-cols-2 justify-center my-10">
           <div className="h-16 border-r-2 border-black/65"></div>
         </div>
-        <div className="flex flex-row items-center max-w-5xl justify-center py-20 max">
+        <div className=" justify-center py-20 max flex flex-row items-center max-w-5xl">
           <Image
             src={require("@/assets/pexels-maryia-plashchynskaya-3393793.jpg")}
             alt="Gruppefoto"
