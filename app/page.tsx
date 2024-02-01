@@ -89,8 +89,8 @@ export default function Home() {
             imod dig.
           </p>
           <p className="p-7">
-            At få stillet en diagnose er for mange en lettelse, fordi det giver
-            svar på spørgsmål, der har fyldt meget. For nogen medfører en
+            1 At få stillet en diagnose er for mange en lettelse, fordi det
+            giver svar på spørgsmål, der har fyldt meget. For nogen medfører en
             diagnose dog også mange nye spørgsmål. Hvem er jeg med min diagnose?
             Vil det være smart at ændre på noget i min hverdag eller skal jeg
             bare leve som før? Har jeg fået det bedre af at få stillet min
@@ -144,8 +144,8 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="flex flex-row items-center max-w-5xl justify-center py-24 max">
-          <div className="mr-10 w-1/2">
+        <div className="sm:flex flex-row items-center max-w-5xl justify-center py-24 max">
+          <div className="sm:mr-10 sm:*:w-1/2 ">
             <h2 className="pb-2 font-bold text-lg "> Forældresparring</h2>
             <p>
               Vi tilbyder sparring til forældre, der ønsker at forstå og hjælpe
@@ -157,6 +157,9 @@ export default function Home() {
               PPR. Hvis du vil læse mere, kan du trykke her.
             </p>
           </div>
+          <h2 className="absolute top-32 font-bold text-lg z-20 sm:hidden flex bg-orange-400/80 px-4">
+            Forældresparring
+          </h2>
           <Image
             src={require("@/assets/pexels-kindel-media-8550841.jpg")}
             alt="Gruppefoto"
