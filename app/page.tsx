@@ -14,7 +14,7 @@ export default function Home() {
           height={600}
         />
       </div>
-      <div className="z-20 sm:mt-72 pt-10 sm:pt-0 sm:w-1/2 px-3 sm:px-28 sm:absolute bg-orange-100 ">
+      <div className="z-20 sm:mt-72 pt-10 sm:pt-0 sm:w-1/2 px-3 sm:px-28 sm:absolute bg-orange-100 sm:bg-inherit ">
         <div className="z-20 black text-lg pt-3 pb-5 px-5 bg-orange-200 rounded-md ">
           <p>
             Søger du en{" "}
@@ -144,8 +144,20 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="sm:flex flex-row items-center max-w-5xl justify-center py-24 max">
-          <div className="sm:mr-10 sm:*:w-1/2 ">
+        <div className=" sm:flex flex-row items-center max-w-5xl justify-center py-24  ">
+          <div className="relative flex justify-center sm:hidden">
+            <h2 className="absolute top-5 font-bold text-lg z-20 sm:hidden flex bg-orange-400/80 px-4">
+              Forældresparring
+            </h2>
+            <Image
+              src={require("@/assets/pexels-kindel-media-8550841.jpg")}
+              alt="Gruppefoto"
+              className="sm:max-w-40 z-10 sm:max-h-92 max-h-52 object-cover"
+              width={1000}
+              height={600}
+            />
+          </div>
+          <div className="sm:mr-10 sm:w-1/2">
             <h2 className="pb-2 font-bold text-lg "> Forældresparring</h2>
             <p>
               Vi tilbyder sparring til forældre, der ønsker at forstå og hjælpe
@@ -157,16 +169,15 @@ export default function Home() {
               PPR. Hvis du vil læse mere, kan du trykke her.
             </p>
           </div>
-          <h2 className="absolute top-32 font-bold text-lg z-20 sm:hidden flex bg-orange-400/80 px-4">
-            Forældresparring
-          </h2>
-          <Image
-            src={require("@/assets/pexels-kindel-media-8550841.jpg")}
-            alt="Gruppefoto"
-            className="z-10 max-w-60  max-h-92 object-cover"
-            width={1000}
-            height={600}
-          />
+          <div className="relative hidden sm:flex justify-center ">
+            <Image
+              src={require("@/assets/pexels-kindel-media-8550841.jpg")}
+              alt="Gruppefoto"
+              className="sm:max-w-72 z-10 sm:max-h-92 max-h-52 object-cover"
+              width={1000}
+              height={600}
+            />
+          </div>
         </div>
         <div className="flex justify-center pb-10">
           <button className="bg-black text-white/80 rounded-full font-semibold mt-1 mb-24 text-xl font-mono px-8 py-4 hover:scale-110 hover:text-orange-400 transition-all">
