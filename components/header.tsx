@@ -63,7 +63,7 @@ export default function Header() {
             : "flex fixed h-12 w-screen hover:bg-black/90 py-6"
         }
       >
-        <ul className=" flex w-screen flex-wrap items-center justify-center font-medium ">
+        <ul className=" w-screen flex-wrap items-center justify-center font-medium hidden sm:flex">
           {links.map((link) => (
             <motion.li
               className="h-3/4 border sm:border-0 rounded-full px-2  flex items-center justify-center  cursor-pointer hover:text-orange-400 transition-all"
