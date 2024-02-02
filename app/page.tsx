@@ -146,7 +146,7 @@ export default function Home() {
         </div>
         <div className=" max-w-5xl flex-row items-center justify-center py-24 sm:flex  ">
           <div className="relative flex justify-center sm:hidden">
-            <h2 className="absolute top-10 z-20 flex rounded-md bg-orange-400/90 px-4 text-lg font-bold sm:hidden">
+            <h2 className="absolute top-10 z-20 flex rounded-md bg-orange-400/90 px-4 text-lg font-bold  sm:hidden">
               Forældresparring
             </h2>
             <Image

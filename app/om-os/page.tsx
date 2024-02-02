@@ -4,34 +4,34 @@ import React from "react";
 export default function OmOs() {
   return (
     <div className="bg-orange-200 ">
-      <div className="grid grid-cols-2 px-32 pt-24">
-        <div className="mx-20">
+      <div className="prose-base grid-cols-2 px-32 pt-24 sm:grid">
+        <div className="relative">
           <Image
             src={require("@/assets/Camilla-Porstraet-1024x1536.jpg")}
             placeholder="blur"
             alt="Portraet Camilla"
             width={300}
             height={450}
-            className="rounded-b-full rounded-tl-full border-white border-2"
+            className="absolute right-20 rounded-b-full rounded-tl-full border-2 border-white"
           ></Image>
         </div>
-        <div className=" bg-orange-200 flex flex-col justify-center font-serif">
+        <div className="">
           <section>
-            <h3 className="font-bold text-md font-sans">Kamilla Nansen</h3>
+            <h3>Kamilla Nansen</h3>
           </section>
-          <p className="pb-2">
+          <p>
             Jeg er uddannet psykolog ved Københavns Universitet i 2015 og havde
             under min studietid et særligt fokus på arbejdsmiljø og herunder
             mobning og stress. Jeg er autoriseret af Psykolognævnet.
           </p>
-          <p className="pb-2">
+          <p>
             Som et led i at være ansat hos Kolding Kommunes PPR-kontor
             (Pædagogisk Psykologisk Rådgivning) har jeg på de forskellige
             ungdomsuddannelser i Kolding Kommune varetaget samtaleforløb med
             unge studerende.
           </p>
           <p>Jeg har erfaring med at varetage forløb, der omhandler: </p>
-          <ol className="list-disc ml-6 pb-3">
+          <ol>
             <li>Misbrug</li>
             <li>Angst</li>
             <li>Stress</li>
@@ -39,15 +39,15 @@ export default function OmOs() {
             <li>Sorg</li>
             <li>Spørgsmål vedrørende identitet</li>
           </ol>
-          <p className="pb-2">
+          <p>
             Hos mig vil du opleve, at det er hvad du har brug for, der er det
             vigtige.
           </p>
-          <p className="pb-2">
+          <p>
             En udvikling kan først finde sted, når du oplever, at være tilpas
             med at tage de emner op, du har brug for at arbejde med.
           </p>
-          <p className="pb-2">
+          <p>
             Derfor er det vigtigt, at vi sammen sporer os ind på, hvad du har
             brug for i et tempo, der er rart for dig.
           </p>{" "}
@@ -55,7 +55,7 @@ export default function OmOs() {
             Jeg ser det som min fornemmeste opgave, at vi sammen får fundet frem
             til nogle nye vinkler, som kan åbne op for nye muligheder for dig.
           </p>{" "}
-          <p className="pb-4">
+          <p>
             Det vil ofte være i det levede liv, at vi finder svarene på hvorfor,
             vi kan synes noget er svært at håndtere lige nu og her. Vi træder
             oftest på de stier, som vi kender allerbedst, så det at turde gå en
@@ -64,11 +64,11 @@ export default function OmOs() {
           </p>{" "}
           <p>Kontakt Kamilla</p>
           <p>Telefon til praksis: 25331100 </p>
-          <p className="pb-8">Direkte e-mail: kamilla@psykologtidvejle.dk</p>
+          <p>Direkte e-mail: kamilla@psykologtidvejle.dk</p>
         </div>
       </div>
-      <div className=" bg-orange-300 px-32 pt-24 ">
-        <div className="grid grid-cols-2 align-top  ">
+      <div className=" bg-orange-300 px-4 pt-24 sm:px-32 ">
+        <div className="prose-base grid-cols-2 align-top sm:grid ">
           <div>
             <h3>Thea Dahl Vemmelund </h3>
             <p>
@@ -116,7 +116,7 @@ export default function OmOs() {
               alt="Portraet Camilla"
               width={300}
               height={450}
-              className=" rounded-b-full rounded-tr-full border-white border-2"
+              className=" rounded-b-full rounded-tr-full border-2 border-white"
             ></Image>
           </div>
         </div>

@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 
-export default function Footer() {
+export default function () {
   return (
-    <section className="w-full grid grid-cols-9 py-5 text-white/90 bg-gray-700">
-      <div className=" col-start-5 text-left col-span-3 ">
+    <section className="grid w-full grid-cols-9 bg-gray-700 py-5 text-white/90">
+      <div className=" col-span-3 col-start-5 text-left ">
         <p>Psykologtid Vejle</p>
         <p>Andkærhus</p>
         <p>Andkærvej 19</p>
@@ -12,7 +12,7 @@ export default function Footer() {
         <p>Telefon: 25331100</p>
         <p>Mail: psykologtidvejle@protonmail.com</p>
       </div>
-      <div className="col-start-8 col-span-2 mr-10">
+      <div className="col-span-2 col-start-8 mr-10">
         <Image
           src={require("@/assets/DanskPsykologForening-300x103-1.png")}
           alt="Dansk Psykolog Foreningslogo"
