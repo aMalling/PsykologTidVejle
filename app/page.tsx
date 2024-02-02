@@ -4,18 +4,18 @@ import React from "react";
 export default function Home() {
   return (
     <main className="flex flex-col ">
-      <div className="w-screen max-h-[600px] overflow-hidden bg-gray-400">
+      <div className="max-h-[600px] w-screen overflow-hidden bg-gray-400">
         <Image
           src={require("@/assets/Gruppefoto-logo.jpg")}
           placeholder="blur"
           alt="Gruppefoto"
-          className="w-full z-10 opacity-70 "
+          className="z-10 w-full opacity-70 "
           width={1000}
           height={600}
         />
       </div>
-      <div className="z-20 sm:mt-72 pt-10 sm:pt-0 sm:w-1/2 px-3 sm:px-28 sm:absolute bg-orange-100 sm:bg-inherit ">
-        <div className="z-20 black text-lg pt-3 pb-5 px-5 bg-orange-200 rounded-md ">
+      <div className="z-20 bg-orange-100 px-3 pt-10 sm:absolute sm:mt-72 sm:w-1/2 sm:bg-inherit sm:px-28 sm:pt-0 ">
+        <div className="black z-20 rounded-md bg-orange-200 px-5 pb-5 pt-3 text-lg ">
           <p>
             Søger du en{" "}
             <span className="font-bold text-black  ">
@@ -27,16 +27,16 @@ export default function Home() {
           Book tid til en samtale med psykolog Kamilla Nansen eller psykolog
           Thea Dahl Vemmelund og få en tid snarest.{" "}
           <p>
-            <button className="bg-black text-white/80 rounded-full font-semibold  mt-1 text-medium font-mono px-5 py-2  hover:scale-110 hover:text-orange-400 transition-all">
+            <button className="text-medium mt-1 rounded-full bg-black  px-5 py-2 font-mono font-semibold text-white/80  transition-all hover:scale-110 hover:text-orange-400">
               {">"} Bestil tid nu
             </button>
           </p>
         </div>
       </div>
-      <div className="py-10 w-screen bg-orange-100">
-        <div className=" px-6 sm:px-28 py-4 flex justify-center">
-          <div className=" py-3 sm:px-4 font-serif sm:w-1/2 rounded-md">
-            <h2 className="pb-2 font-bold text-lg ">
+      <div className="w-screen bg-orange-100 py-10">
+        <div className=" flex justify-center px-6 py-4 sm:px-28">
+          <div className=" rounded-md py-3 font-serif sm:w-1/2 sm:px-4">
+            <h2 className="pb-2 text-lg font-bold ">
               Hvad kan man tale med en psykolog om?{" "}
             </h2>
             <p className="pb-2 ">
@@ -60,9 +60,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="sm:px-52 sm:py-20 flex justify-center text-white/90 bg-gray-700">
-        <div className="grid sm:grid-cols-2  font-serif ">
-          <p className="pb-5 border-b-4 sm:border-r-4 border-orange-200 p-7">
+      <div className="flex justify-center bg-gray-700 text-white/90 sm:px-52 sm:py-20">
+        <div className="grid font-serif  sm:grid-cols-2 ">
+          <p className="border-b-4 border-orange-200 p-7 pb-5 sm:border-r-4">
             Har du <span className="text-orange-400">angst</span>, kan det have
             store konsekvenser for, hvordan du lever dit liv. Du kan blive
             begrænset i at leve, som du gerne vil, og det kan føles som en
@@ -78,7 +78,7 @@ export default function Home() {
             skrue ned for tempoet, selvom du har en god idé om, hvad du skal
             skære væk.
           </p>
-          <p className=" border-b-4 sm:border-b-0 sm:border-r-4 border-orange-200 p-7">
+          <p className=" border-b-4 border-orange-200 p-7 sm:border-b-0 sm:border-r-4">
             Lever du et liv med{" "}
             <span className="text-orange-400"> depression</span>, der kommer og
             går i perioder? Oplever du for første gang en overvældende følelse
@@ -100,35 +100,35 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <section className="flex-row justify-center font-sans px-7 sm:px-40 bg-orange-100   ">
-        <div className="flex flex-col py-10 mt-10  sm:mt-32 gap-10 ">
-          <p className="italic font-serif">
+      <section className="flex-row justify-center bg-orange-100 px-7 font-sans sm:px-40   ">
+        <div className="mt-10 flex flex-col gap-10  py-10 sm:mt-32 ">
+          <p className="font-serif italic">
             Vi træder oftest på de stier, som vi kender allerbedst, så det at
             turde gå en ny vej, kan være svært, og for mange kan det slet ikke
             lade sig gøre at få øje på nye stier. Dem kan vi sammen finde. –
             Kamilla
           </p>
-          <p className="italic max-w-3xl font-serif">
+          <p className="max-w-3xl font-serif italic">
             Det kræver ofte tilløb og mod at starte i terapi, og jeg vil tage
             omsorgsfuldt imod dig. – Thea{" "}
           </p>
         </div>
-        <div className="grid grid-cols-2 justify-center my-10">
+        <div className="my-10 grid grid-cols-2 justify-center ">
           <div className="h-16 border-r-2 border-black/65"></div>
         </div>
-        <div className="relative justify-center py-20 flex flex-col sm:flex-row items-center max-w-5xl">
-          <h2 className="absolute top-32 font-bold text-lg z-20 sm:hidden flex bg-orange-400/80 px-4">
+        <div className="relative flex max-w-5xl flex-col items-center justify-center py-20 sm:flex-row">
+          <h2 className="absolute top-32 z-20 flex rounded-md bg-orange-400/90 px-4 text-lg font-bold sm:hidden">
             Til dig, som er ung
           </h2>
           <Image
             src={require("@/assets/pexels-maryia-plashchynskaya-3393793.jpg")}
             alt="Gruppefoto"
-            className="sm:max-w-40 z-10 sm:max-h-92 max-h-52 object-cover"
+            className="sm:max-h-92 z-10 max-h-52 object-cover sm:max-w-40"
             width={1000}
             height={600}
           />
           <div className="pt-2 sm:ml-10 sm:mr-20 sm:w-1/2 ">
-            <h2 className="font-bold text-lg hidden sm:flex ">
+            <h2 className="hidden text-lg font-bold sm:flex ">
               Til dig, som er ung
             </h2>
             <p>
@@ -144,22 +144,25 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className=" sm:flex flex-row items-center max-w-5xl justify-center py-24  ">
+        <div className=" max-w-5xl flex-row items-center justify-center py-24 sm:flex  ">
           <div className="relative flex justify-center sm:hidden">
-            <h2 className="absolute top-5 font-bold text-lg z-20 sm:hidden flex bg-orange-400/80 px-4">
+            <h2 className="absolute top-10 z-20 flex rounded-md bg-orange-400/90 px-4 text-lg font-bold sm:hidden">
               Forældresparring
             </h2>
             <Image
               src={require("@/assets/pexels-kindel-media-8550841.jpg")}
               alt="Gruppefoto"
-              className="sm:max-w-40 z-10 sm:max-h-92 max-h-52 object-cover"
+              className="sm:max-h-92 z-10 max-h-52 object-cover sm:max-w-40"
               width={1000}
               height={600}
             />
           </div>
           <div className="sm:mr-10 sm:w-1/2">
-            <h2 className="pb-2 font-bold text-lg "> Forældresparring</h2>
-            <p>
+            <h2 className=" hidden text-lg font-bold sm:flex">
+              {" "}
+              Forældresparring
+            </h2>
+            <p className="pt-2">
               Vi tilbyder sparring til forældre, der ønsker at forstå og hjælpe
               deres børn til bedre trivsel og balance i en måske hektisk
               hverdag. Har dit barn en diagnose, fx autisme, ADHD, ADD eller
@@ -169,18 +172,18 @@ export default function Home() {
               PPR. Hvis du vil læse mere, kan du trykke her.
             </p>
           </div>
-          <div className="relative hidden sm:flex justify-center ">
+          <div className="relative hidden justify-center sm:flex ">
             <Image
               src={require("@/assets/pexels-kindel-media-8550841.jpg")}
               alt="Gruppefoto"
-              className="sm:max-w-72 z-10 sm:max-h-92 max-h-52 object-cover"
+              className="sm:max-h-92 z-10 max-h-52 object-cover sm:max-w-72"
               width={1000}
               height={600}
             />
           </div>
         </div>
         <div className="flex justify-center pb-10">
-          <button className="bg-black text-white/80 rounded-full font-semibold mt-1 mb-24 text-xl font-mono px-8 py-4 hover:scale-110 hover:text-orange-400 transition-all">
+          <button className="mb-24 mt-1 rounded-full bg-black px-8 py-4 font-mono text-xl font-semibold text-white/80 transition-all hover:scale-110 hover:text-orange-400">
             {">"} Bestil tid nu
           </button>
         </div>
