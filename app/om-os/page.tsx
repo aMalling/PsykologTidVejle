@@ -4,21 +4,19 @@ import React from "react";
 export default function OmOs() {
   return (
     <div className="bg-orange-200 ">
-      <div className="prose-base grid-cols-2 px-32 pt-24 sm:grid">
-        <div className="relative">
+      <div className="prose-base grid-cols-2 flex-col px-6 pt-24 sm:grid sm:px-32">
+        <div className="relative mx-20 sm:mr-0">
           <Image
             src={require("@/assets/Camilla-Porstraet-1024x1536.jpg")}
             placeholder="blur"
             alt="Portraet Camilla"
             width={300}
             height={450}
-            className="absolute right-20 rounded-b-full rounded-tl-full border-2 border-white"
+            className="right-20 rounded-b-full rounded-tl-full border-2 border-white sm:absolute"
           ></Image>
         </div>
         <div className="">
-          <section>
-            <h3>Kamilla Nansen</h3>
-          </section>
+          <h3>Kamilla Nansen</h3>
           <p>
             Jeg er uddannet psykolog ved Københavns Universitet i 2015 og havde
             under min studietid et særligt fokus på arbejdsmiljø og herunder
@@ -67,7 +65,7 @@ export default function OmOs() {
           <p>Direkte e-mail: kamilla@psykologtidvejle.dk</p>
         </div>
       </div>
-      <div className=" bg-orange-300 px-4 pt-24 sm:px-32 ">
+      <div className=" bg-orange-300 px-6 pt-24 sm:px-32 ">
         <div className="prose-base grid-cols-2 align-top sm:grid ">
           <div>
             <h3>Thea Dahl Vemmelund </h3>

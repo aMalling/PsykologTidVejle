@@ -4,7 +4,7 @@ import React from "react";
 export default function Home() {
   return (
     <main className="flex flex-col">
-      <div className="max-h-[600px] w-screen overflow-hidden bg-gray-400">
+      <div className="mt-20 max-h-[600px] w-screen overflow-hidden bg-gray-400 sm:mt-0">
         <Image
           src={require("@/assets/Gruppefoto-logo.jpg")}
           placeholder="blur"
@@ -14,7 +14,7 @@ export default function Home() {
           height={600}
         />
       </div>
-      <div className="z-20 bg-orange-100 px-3 pt-10 sm:absolute sm:mt-72 sm:w-1/2 sm:bg-inherit sm:px-28 sm:pt-0 ">
+      <div className="z-20 bg-orange-100 px-3 pt-6 sm:absolute sm:mt-72 sm:w-1/2 sm:bg-inherit sm:px-28 sm:pt-0 ">
         <div className="black z-20 rounded-md bg-orange-200 px-5 pb-5 pt-3 text-lg sm:max-w-96 ">
           <p>
             Søger du en{" "}
