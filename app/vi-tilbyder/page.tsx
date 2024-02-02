@@ -58,7 +58,7 @@ export default function viTilbyder() {
       </div>
       <section
         id="samtaleterapi"
-        className="prose-base flex justify-center px-6 pt-6 font-serif sm:px-32  "
+        className="prose-base flex scroll-mt-12 justify-center px-6 pt-6 font-serif sm:px-32 "
       >
         <div className="prose max-w-lg ">
           <div>
@@ -122,7 +122,7 @@ export default function viTilbyder() {
       </section>
       <section
         id="til-dig-som-er-ung"
-        className="prose-base flex justify-center px-6 pt-6 font-serif sm:px-32  "
+        className="prose-base flex scroll-mt-12 justify-center px-6 pt-6 font-serif sm:px-32  "
       >
         <div class="prose max-w-lg">
           <h3 className="mb-0 ">Til dig, som er ung (+18)</h3>
@@ -176,7 +176,7 @@ export default function viTilbyder() {
       </section>
       <section
         id="forældresparring"
-        className="prose-base flex justify-center px-6 pt-6 font-serif sm:px-32 "
+        className="prose-base flex scroll-mt-12 justify-center px-6 pt-6 font-serif sm:px-32 "
       >
         <div class="prose max-w-lg">
           <h3 className="mb-0">Forældresparring</h3>

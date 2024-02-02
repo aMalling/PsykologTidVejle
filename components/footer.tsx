@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function () {
   return (
-    <section className="grid w-full grid-cols-9 bg-gray-700 py-5 text-white/90">
+    <section className="flex justify-center bg-gray-700 py-5 text-white/90">
       <div className=" col-span-3 col-start-5 text-left ">
         <p>Psykologtid Vejle</p>
         <p>Andkærhus</p>
@@ -12,7 +12,7 @@ export default function () {
         <p>Telefon: 25331100</p>
         <p>Mail: psykologtidvejle@protonmail.com</p>
       </div>
-      <div className="col-span-2 col-start-8 mr-10">
+      {/*       <div className="col-span-2 col-start-8 mr-10 hidden sm:grid">
         <Image
           src={require("@/assets/DanskPsykologForening-300x103-1.png")}
           alt="Dansk Psykolog Foreningslogo"
@@ -20,7 +20,7 @@ export default function () {
           width={200}
           height={75}
         />
-      </div>
+      </div> */}
     </section>
   );
 }
