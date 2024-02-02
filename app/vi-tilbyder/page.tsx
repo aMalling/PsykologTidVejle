@@ -124,7 +124,7 @@ export default function viTilbyder() {
         id="til-dig-som-er-ung"
         className="prose-base flex scroll-mt-12 justify-center px-6 pt-6 font-serif sm:px-32  "
       >
-        <div class="prose max-w-lg">
+        <div className="prose max-w-lg">
           <h3 className="mb-0 ">Til dig, som er ung (+18)</h3>
           <p>
             Måske oplever du også, at der er mange krav til dig, som er ung?
@@ -156,7 +156,7 @@ export default function viTilbyder() {
             vej.
           </p>
 
-          <h5 class="">Særligt i forhold til unge</h5>
+          <h5>Særligt i forhold til unge</h5>
 
           <p>
             Psykologtid Vejle tilbyder terapeutiske samtaler til unge fra 18 år.
@@ -178,7 +178,7 @@ export default function viTilbyder() {
         id="forældresparring"
         className="prose-base flex scroll-mt-12 justify-center px-6 pt-6 font-serif sm:px-32 "
       >
-        <div class="prose max-w-lg">
+        <div className="prose max-w-lg">
           <h3 className="mb-0">Forældresparring</h3>
           <p>
             Alle forældre vil fra tid til anden stå i situationer med deres
