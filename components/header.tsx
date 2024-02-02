@@ -53,20 +53,20 @@ export default function Header() {
 
   return (
     <header
-      className="z-50 relative w-screen 
-     font-mono text-white font-medium "
+      className="relative z-50 w-screen 
+     font-mono font-medium text-white "
     >
       <nav
         className={
           color
-            ? "flex fixed h-12 w-screen bg-black/90 py-6 "
-            : "flex fixed h-12 w-screen hover:bg-black/90 py-6"
+            ? "fixed flex  w-screen bg-black py-2 sm:h-12 sm:bg-black/90  sm:py-6 "
+            : "fixed flex  w-screen bg-black py-2 sm:h-12 sm:bg-inherit sm:py-6 sm:hover:bg-black/90"
         }
       >
-        <ul className=" w-screen flex-wrap items-center justify-center font-medium hidden sm:flex">
+        <ul className=" items flex w-screen flex-wrap items-center justify-center font-medium">
           {links.map((link) => (
             <motion.li
-              className="h-3/4 border sm:border-0 rounded-full px-2  flex items-center justify-center  cursor-pointer hover:text-orange-400 transition-all"
+              className="flex cursor-pointer items-center justify-center rounded-full border px-2 transition-all  hover:text-orange-400 sm:h-3/4 sm:border-0"
               key={link.hash}
               initial={{ y: -100, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}

@@ -4,11 +4,11 @@ import Link from "next/link";
 
 export default function viTilbyder() {
   return (
-    <div className=" w-scrren bg-orange-200 ">
+    <div className=" bg-orange-200 ">
       <div className="prose-base flex justify-center px-6 pt-8 sm:px-32 sm:pt-24">
         <div className="prose max-w-lg">
           <h1>Vi tilbyder:</h1>
-          <div className="flex flex-col sm:flex-row">
+          <div className="flex flex-col gap-y-2 sm:flex-row">
             <Link href="#vi-tilbyder">
               {" "}
               <h4 className="m-1 inline cursor-pointer rounded-full p-2 transition-all hover:bg-black hover:text-orange-400">
@@ -16,14 +16,14 @@ export default function viTilbyder() {
                 Samtaleterapi
               </h4>
             </Link>
-            <span>- </span>
+            <span className="hidden sm:flex">- </span>
             <Link href="#vi-tilbyder">
               <h4 className="hover:bg-blacktransition-all m-1 inline cursor-pointer rounded-full p-2 transition-all hover:bg-black hover:text-orange-400">
                 {" "}
                 Til dig, som er ung
               </h4>
             </Link>
-            <span>- </span>
+            <span className="hidden sm:flex">- </span>
             <Link href="#vi-tilbyder">
               <h4 className="hover:bg-blacktransition-all m-1 inline cursor-pointer rounded-full p-2 transition-all hover:bg-black hover:text-orange-400">
                 Forældresparring
@@ -56,8 +56,11 @@ export default function viTilbyder() {
           </p>
         </div>
       </div>
-      <section id="vi-tilbyder" className="prose-base flex justify-center">
-        <div className="prose max-w-lg font-serif">
+      <section
+        id="vi-tilbyder"
+        className="prose-base flex justify-center px-6 pt-6 font-serif sm:px-32  "
+      >
+        <div className="prose max-w-lg ">
           <div>
             <h2>Samtaleterapi</h2>
           </div>
@@ -107,15 +110,7 @@ export default function viTilbyder() {
 
             <p>
               Vil du gerne vide mere om, hvem vi er og hvad der kendetegner os,
-              kan du læse mere i afsnittene{" "}
-              <a
-                href="https://www.psykologtidvejle.dk/om-os/"
-                data-type="page"
-                data-id="14"
-              >
-                om os
-              </a>
-              .
+              kan du læse mere i afsnittene <Link href="/kontakt">om os</Link>.
             </p>
             <p>
               Psykologtid Vejle har tid til dig. Du er velkommen til at kontakte
@@ -123,15 +118,7 @@ export default function viTilbyder() {
               et samtaleforløb hos os.
             </p>
             <p>
-              Du kan kontakte os{" "}
-              <a
-                href="https://www.psykologtidvejle.dk/kontakt/"
-                data-type="page"
-                data-id="22"
-              >
-                her
-              </a>
-              .
+              Du kan kontakte os <Link href="/kontakt">her</Link>.
             </p>
           </div>
         </div>

@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Home() {
   return (
-    <main className="flex flex-col ">
+    <main className="flex flex-col">
       <div className="max-h-[600px] w-screen overflow-hidden bg-gray-400">
         <Image
           src={require("@/assets/Gruppefoto-logo.jpg")}
@@ -15,7 +15,7 @@ export default function Home() {
         />
       </div>
       <div className="z-20 bg-orange-100 px-3 pt-10 sm:absolute sm:mt-72 sm:w-1/2 sm:bg-inherit sm:px-28 sm:pt-0 ">
-        <div className="black z-20 rounded-md bg-orange-200 px-5 pb-5 pt-3 text-lg ">
+        <div className="black z-20 rounded-md bg-orange-200 px-5 pb-5 pt-3 text-lg sm:max-w-96 ">
           <p>
             Søger du en{" "}
             <span className="font-bold text-black  ">
@@ -100,7 +100,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <section className="flex-row justify-center bg-orange-100 px-7 font-sans sm:px-40   ">
+      <section className="flex flex-col justify-center bg-orange-100 px-7 font-sans sm:px-40   ">
         <div className="mt-10 flex flex-col gap-10  py-10 sm:mt-32 ">
           <p className="font-serif italic">
             Vi træder oftest på de stier, som vi kender allerbedst, så det at
@@ -116,22 +116,22 @@ export default function Home() {
         <div className="my-10 grid grid-cols-2 justify-center ">
           <div className="h-16 border-r-2 border-black/65"></div>
         </div>
-        <div className="relative flex max-w-5xl flex-col items-center justify-center py-20 sm:flex-row">
+        <div className="relative flex  flex-col items-center justify-center py-20 sm:flex-row">
           <h2 className="absolute top-32 z-20 flex rounded-md bg-orange-400/90 px-4 text-lg font-bold sm:hidden">
             Til dig, som er ung
           </h2>
           <Image
             src={require("@/assets/pexels-maryia-plashchynskaya-3393793.jpg")}
             alt="Gruppefoto"
-            className="sm:max-h-92 z-10 max-h-52 object-cover sm:max-w-40"
+            className="sm:max-h-92 z-10 max-h-52 object-cover sm:max-w-52"
             width={1000}
             height={600}
           />
-          <div className="pt-2 sm:ml-10 sm:mr-20 sm:w-1/2 ">
-            <h2 className="hidden text-lg font-bold sm:flex ">
+          <div className="pt-2 sm:ml-10  ">
+            <h2 className="prose prose-base hidden pt-2 text-lg font-bold text-black sm:flex ">
               Til dig, som er ung
             </h2>
-            <p>
+            <p className="prose prose-base pt-2 text-black">
               Som ung kan du opleve, at der er mange krav og forventninger til
               dig, både fra omgivelserne og fra dig selv. Det kan handle om alt
               fra skolearbejde, venner, kærester og forældre, til ensomhed,
@@ -144,7 +144,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className=" max-w-5xl flex-row items-center justify-center py-24 sm:flex  ">
+        <div className=" flex-row items-center justify-center py-24 sm:flex  ">
           <div className="relative flex justify-center sm:hidden">
             <h2 className="absolute top-10 z-20 flex rounded-md bg-orange-400/90 px-4 text-lg font-bold  sm:hidden">
               Forældresparring
@@ -157,12 +157,12 @@ export default function Home() {
               height={600}
             />
           </div>
-          <div className="sm:mr-10 sm:w-1/2">
+          <div className="">
             <h2 className=" hidden text-lg font-bold sm:flex">
               {" "}
               Forældresparring
             </h2>
-            <p className="pt-2">
+            <p className="prose prose-base pt-2 text-black sm:mr-10">
               Vi tilbyder sparring til forældre, der ønsker at forstå og hjælpe
               deres børn til bedre trivsel og balance i en måske hektisk
               hverdag. Har dit barn en diagnose, fx autisme, ADHD, ADD eller
@@ -176,7 +176,7 @@ export default function Home() {
             <Image
               src={require("@/assets/pexels-kindel-media-8550841.jpg")}
               alt="Gruppefoto"
-              className="sm:max-h-92 z-10 max-h-52 object-cover sm:max-w-72"
+              className="sm:max-h-92 z-10 max-h-52 object-cover sm:max-w-52"
               width={1000}
               height={600}
             />
