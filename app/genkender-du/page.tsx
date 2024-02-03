@@ -4,7 +4,7 @@ import React from "react";
 export default function GenkenderDu() {
   return (
     <div className="bg-orange-200 ">
-      <div className="prose-base flex justify-center px-6 pt-24  sm:px-32">
+      <div className="prose-base flex justify-center px-6 pt-24 sm:px-32">
         <div className="prose max-w-lg">
           <h1>Forløb hos Psykologtid Vejle</h1>
           <h3 id="Stress" className="mb-0 scroll-mt-12">

@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function viTilbyder() {
   return (
     <div className=" bg-orange-200 ">
-      <div className="prose-base flex justify-center px-6 pt-8 sm:px-32 sm:pt-24">
+      <div className="prose-base flex justify-center px-6 pt-24  sm:px-32">
         <div className="prose max-w-lg">
           <h1>Vi tilbyder:</h1>
           <div className="flex flex-col gap-y-2 sm:flex-row">
