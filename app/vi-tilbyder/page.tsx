@@ -83,14 +83,12 @@ export default function viTilbyder() {
               perioder være svært for nogen, at sætte en finger på, hvad der er
               årsagen til, at noget ikke føles rigtigt.
             </p>
-
             <p>
               At gå til psykolog handler om at blive klogere på sig selv og det,
               man er rundet af. I takt med at man lærer nyt om sig selv, vil
               mulighederne for at udvikle sig i en ønsket retning opstå. Vi
               hjælper dig gerne på vej.
             </p>
-
             <p>
               Et samtaleforløb kan bestå af få samtaler eller være et
               længerevarende forløb. Nogen ønsker at mødes med et kort interval
@@ -98,13 +96,11 @@ export default function viTilbyder() {
               hensyn til dine præferencer og laver aftaler efter, hvad du har
               brug for.
             </p>
-
             <p>
               Vi har tavshedspligt og værner naturligvis om det, du bringer op i
               samtalen. Intet er for stort eller for småt i en samtale hos os.
               Hvis det er vigtigt for dig, så er det vigtigt for os i terapien.
             </p>
-
             <p>
               Vil du gerne vide mere om, hvem vi er og hvad der kendetegner os,
               kan du læse mere i afsnittene <Link href="/kontakt">om os</Link>.
@@ -133,35 +129,28 @@ export default function viTilbyder() {
             svært at navigere i, hvem man selv er samtidig med, at man skal leve
             op til forventninger om uddannelse.
           </p>
-
           <p>
             Det kan også være, du har haft en svær opvækst og ikke kan finde ud
             af, hvad det siger om dig, og hvem du er? Eller måske har du oplevet
             noget grænseoverskridende, som har sat dybe spor?
           </p>
-
           <p>
             Man kan ikke ændre på sin fortid, men vi kan have fokus på, hvad du
             ønsker for dig selv i fremtiden.
           </p>
-
           <p>
             Vi oplever ind imellem, at spørgsmål om selvværd og selvtillid
             fylder ekstra meget i den del af livet, hvor man er ved at finde sig
             selv. Særligt hvis ens vej gennem livet ikke har været nem.
           </p>
-
           <p>
             Hos Psykologtid Vejle vil vi gøre, hvad vi kan, for at hjælpe dig på
             vej.
           </p>
-
           <h5>Særligt i forhold til unge</h5>
-
           <p>
             Psykologtid Vejle tilbyder terapeutiske samtaler til unge fra 18 år.
           </p>
-
           <p>
             Fortæller du os noget, som kan give anledning til bekymring for din
             sikkerhed, fx selvmordstanker, har vi pligt til at sørge for, du
