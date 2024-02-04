@@ -65,8 +65,8 @@ export default function OmOs() {
           <p>Direkte e-mail: kamilla@psykologtidvejle.dk</p>
         </div>
       </div>
-      <div className=" bg-orange-300 px-6 pt-24 sm:px-32 ">
-        <div className="prose-base grid-cols-2 align-top sm:grid ">
+      <div className=" bg-orange-300 px-6 pt-12 sm:px-32 sm:pt-24 ">
+        <div className="prose-base flex grid-cols-2 flex-col-reverse align-top sm:grid ">
           <div>
             <h3>Thea Dahl Vemmelund </h3>
             <p>
