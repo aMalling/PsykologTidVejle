@@ -4,13 +4,13 @@ import React from "react";
 export default function Priser() {
   return (
     <div className=" bg-orange-200 ">
-      <div className="prose-base flex justify-center px-6 pt-24  sm:px-32">
+      <div className="prose-base flex justify-center px-6 pt-24 sm:px-32">
         <div className="prose max-w-lg">
           <div>
             <h1>Priser</h1>
           </div>
           <div>
-            <div className="-mx-16 my-8 flex grid-cols-3 flex-col gap-8 sm:grid">
+            <div className="my-8 flex grid-cols-3 flex-col gap-8 sm:-mx-16 sm:grid">
               <div className="grid grid-cols-1  bg-orange-300/80 p-3 text-center shadow-md">
                 <p>Individuelle samtaler </p>
                 <p className="mt-12 text-3xl font-bold">1050,-</p>
